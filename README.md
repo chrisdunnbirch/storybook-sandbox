@@ -6,9 +6,9 @@ This repository is a barebones CRA with `@storybook/react@next` (5.2.0-beta.30) 
 
 `yarn storybook` shows an eslint warning for react-hooks/rules-of-hooks on initial load.
 
-When a `.stories.js` file with a hook is edited and saved storybook will hot reload with the same eslint warning.
+When a `.stories.js` file with a hook is edited and saved storybook will hot reload with the same eslint-loader warning in the background (terminal).
 
-When any other `.stories.js` file or any normal React component that is imported in to any story is edited and saved, storybook will hot reload with an eslint error.
+When any other `.stories.js` file or any normal React component that is imported in to any story is edited and saved, storybook will hot reload with an eslint-loader error (terminal & preview).
 
 ## Test
 
