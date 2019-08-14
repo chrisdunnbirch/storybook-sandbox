@@ -1,5 +1,7 @@
 Storybook 5.2 should [add hooks support to stories](https://github.com/storybookjs/storybook/pull/7571) but I cannot get it to work.
 
+This repository is a barebones CRA with `@storybook/react@next` (5.2.0-beta.30) and `node-sass` to limit any other potential causes from my client repos.
+
 ## Problem
 
 `yarn storybook` shows an eslint warning for react-hooks/rules-of-hooks on initial load.
