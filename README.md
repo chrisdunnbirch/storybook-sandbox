@@ -15,16 +15,11 @@ When any other `.stories.js` file or any normal React component that is imported
 1. Clone this repo
 2. `yarn install`
 3. `yarn storybook`
-
-Expected behaviour:
-* Storybook will load successfully with an eslint warning for react-hooks/rules-of-hooks in the terminal.
-
+  * Expected behaviour:
+    * Storybook will load successfully with an eslint warning for react-hooks/rules-of-hooks in the terminal.
 4. Modify `/src/components/Circle/Circle.stories.js` and save the file.
-
-Expected behaviour:
-* Storybook will reload successfully with the same error as above.
-
+  * Expected behaviour:
+    * Storybook will reload successfully with the same error as above.
 5. Modify `/src/components/Circle/index.js`, `/src/components/Square/index.js`, or `/src/components/Square/Square.stories.js` and save the file.
-
-Expected behaviour:
-* Storybook will reload unsuccessfully with an eslint error for react-hooks/rules-of-hooks in both the terminal and the preview window.
+  * Expected behaviour:
+    * Storybook will reload unsuccessfully with an eslint error for react-hooks/rules-of-hooks in both the terminal and the preview window.
